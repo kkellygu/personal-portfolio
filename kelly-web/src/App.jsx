@@ -1,4 +1,5 @@
 import Topbar from "./components/topbar/Topbar"; 
+import Home from "./components/home/Home";
 import Intro from "./components/intro/Intro"; 
 import Personal from "./components/personal/Personal"; 
 import Portfolio from "./components/portfolio/Portfolio"; 
@@ -11,6 +12,7 @@ function App() {
     <div className="app">
       <Topbar/> 
       <div className="sections">
+        <Home/>
         <Intro/>
         <Portfolio/>
         <Skills/>

@@ -5,8 +5,9 @@ export default function Topbar() {
         <div className = "topbar">
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">kellz.rgdance</a>
-                    
+                    <a href="#home" className="logo">kellz.rgdance</a>
+                    <div className="itemContainer">
+                    </div>
                    
                 
                 </div>
