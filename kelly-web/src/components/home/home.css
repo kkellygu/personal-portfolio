@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 110px;
+    font-size: 100px;
     color: white;
 }
 .wrapper{
@@ -22,12 +22,12 @@
 }
 
 h1{
-    font-size: 110px;
+    font-size: 100px;
     
 }
 .roles{
     text-align: center;
-    margin-top:300px;
+    margin-top:250px;
     margin-left:-140px;
     position:absolute;
     
