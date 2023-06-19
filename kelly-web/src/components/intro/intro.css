@@ -1,17 +1,95 @@
 .intro{
     background-color:rgb(255, 214, 219);
     overflow-y:hidden;
-}
-    .left{
-        flex: 0.5;
-    }
-    .right{
-       flex: 0.5;
-       .imgContainer{
-            height: 900px;       
-            margin-top: 35px; 
-            margin-left: 800px;           
+}   
+.right{
+    flex: 0.5;
 
-       }
-    
+    .imgContainer{
+        height: 900px;       
+        margin-top: 35px; 
+        margin-left: 800px;           
     }
+    
+}
+.aboutMe{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    width: 900px;
+    height: 750px;
+    margin-top: 50px;
+    position: absolute;
+    top: 970px;
+    left: 100px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
+}
+.aboutMe h2{
+    padding-top: 100px;
+    color: rgb(255, 214, 219);
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+}
+.aboutMe p{
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.resumeButton{
+    display: flex;
+    background-color: rgb(255, 214, 219);
+    border-radius:5px;
+    color: white;
+    text-align: center;
+    width: max-content;
+    height: 30px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 1650px;
+    left: 400px;
+    border: 3px solid rgb(255, 214, 219);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    transition:smooth;
+    text-decoration: none;
+}
+
+.resumeButton:hover{
+    background-color: white;
+    border: 3px solid palevioletred;
+    color: palevioletred;
+}
+
+.contButton{
+    display: flex;
+    background-color: rgb(255, 214, 219);
+    border-radius:5px;
+    color: white;
+    text-align: center;
+    width: max-content;
+    height: 30px;
+    padding-left:5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    top: 1650px;
+    left: 565px;
+    border: 3px solid rgb(255, 214, 219);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+    transition:smooth;
+    text-decoration: none;
+}
+.contButton:hover{
+    background-color: white;
+    border: 3px solid palevioletred;
+    color: palevioletred;
+}
+
