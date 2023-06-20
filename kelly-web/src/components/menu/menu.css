@@ -1,7 +1,7 @@
 .menu{
     width:300px;
     height: 100vh;
-    background-color: palevioletred;
+    background-color: rgb(216, 112, 147);
     position: fixed;
     top:0;
     right:-300px;
