@@ -60,7 +60,7 @@ export default function Intro(){
                     <span>&nbsp;let's chat</span>
                 </a>
         
-            <div className="right">
+            <div className="rightImg">
                 <img src={kgHeadshot} className="imgContainer" alt="Kelly Img" />
             </div>
                 

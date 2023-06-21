@@ -2,7 +2,7 @@
     background-color:rgb(255, 214, 219);
     overflow-y:hidden;
 }   
-.right{
+.rightImg{
     flex: 0.5;
 
     .imgContainer{

@@ -1,14 +1,30 @@
 import chinafestImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/chinafest.JPG';
+import fmfImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/fmf.jpg';
+import cfestImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/culturefest.jpg';
+import pinkImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/pink.JPG';
+import vballImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/vball.jpg';
+import historicImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/house.JPG';
+import hkImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/hkduo.jpg';
+import ckImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/ck.jpg';
+import greenImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/green.jpg';
+import jasmineImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/arojas.jpg';
+import fav1 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/fav.JPEG';
+import fav2 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/skyline.JPEG';
+import fav3 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/julyf.JPEG';
+import fav4 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/dog.JPEG';
+import fav5 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/city.JPEG';
+import fav6 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/sunset.JPEG';
+
 
 export const csaPage = [
     { id: 1, title: "Chinafest", 
       img: chinafestImg,
     },
     { id: 2, title: "FullMoonFest", 
-    img: chinafestImg,
+    img: fmfImg,
 },
     { id: 3, title: "Culturefest", 
-      img: chinafestImg,
+      img: cfestImg,
     },
     { id: 4, title: "Presidency", 
       img: chinafestImg,
@@ -22,14 +38,14 @@ export const csaPage = [
 ];
 
 export const akdphiPage = [
-    { id: 1, title: "BCA Chair - Mr. Pink", 
-      img: chinafestImg,
+    { id: 1, title: "BCA - Mr. Pink", 
+      img: pinkImg,
     },
-    { id: 2, title: "BCA Chair - Volleyball Tournament", 
-      img: chinafestImg,
+    { id: 2, title: "BCA - Volleyball Tournament", 
+      img: vballImg,
     },
     { id: 3, title: "Historic Chair", 
-      img: chinafestImg,
+      img: historicImg,
     },
     { id: 4, title: "Rush Chair", 
       img: chinafestImg,
@@ -43,21 +59,21 @@ export const akdphiPage = [
 ];
 export const guzhengPage = [
     { id: 1, title: "Butterfly Lovers ft. Hana Wang", 
-      img: chinafestImg,
+      img: hkImg,
     },
     { id: 2, title: "Li An Yi Hen ft. Cassi Chen", 
+      img: ckImg,
+    },
+    { id: 3, title: "Aromatic Jasmine ", 
+      img: jasmineImg,
+    },
+    { id: 4, title: "Sai Ma", 
+      img: greenImg,
+    },
+    { id: 5, title: "solo", 
       img: chinafestImg,
     },
-    { id: 3, title: "anotha one", 
-      img: chinafestImg,
-    },
-    { id: 4, title: "one more", 
-      img: chinafestImg,
-    },
-    { id: 5, title: "er", 
-      img: chinafestImg,
-    },
-    { id: 6, title: "yer", 
+    { id: 6, title: "group", 
       img: chinafestImg,
     },  
 ];
@@ -83,21 +99,21 @@ export const dancePage = [
 ];
 export const photographyPage = [
     { id: 1, title: "Fav Image", 
-      img: chinafestImg,
+      img: fav1,
     },
     { id: 2, title: "FaveImage2", 
-      img: chinafestImg,
+      img: fav2,
     },
     { id: 3, title: "FaveImage3", 
-      img: chinafestImg,
+      img: fav3,
     },
     { id: 4, title: "FaveImage4", 
-      img: chinafestImg,
+      img: fav4,
     },
     { id: 5, title: "FaveImage5", 
-      img: chinafestImg,
+      img: fav5,
     },
     { id: 6, title: "FaveImage6", 
-      img: chinafestImg,
+      img: fav6,
     },  
 ];
