@@ -11,7 +11,7 @@ export default function Portfolio(){
             id:"1",
             icon: portIcon,
             title:"Personal Portfolio",
-            desc:"A perosnalized protfolio created from css html and js",
+            desc:"An independently developed personal portfolio web application. Built with React, CSS, and JavaScript, this dynamic and visually captivating interface features content from various aspects of my life. With a primary focus on my computer science journey, explore the different dimensions of my life's experiences.",
             img:portIcon,
 
         },
