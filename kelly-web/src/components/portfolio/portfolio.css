@@ -3,12 +3,29 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+}
+.arrow{
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+     
+    &.left{
+        left: 100px;
+    }
+    &.right{
+        height:50px;
+        right: 100px;
+        transform: rotateY(180deg);
+    }
+    
 }
 .slider{
-    height:350px;
+    height:450px;
     display: flex;
     position: absolute;
     left:0;
+    transition: all 1s ease-out;
 }  
 .portContainer{
     width: 100vw;
@@ -17,7 +34,7 @@
     justify-content: center;
 }    
 .items{
-    width: 700px;
+    width: 900px;
     height: 100%;
     background-color:white;
     border-radius: 20px;
@@ -27,16 +44,59 @@
 }
 .leftTwo{
     flex: 4;
-    height:80%;
+    height:70%;
     display:flex;
     align-items: center;
     justify-content: center;
+    overflow:visible;
 }
+.leftTwo h2{
+    display:flex;
+    font-size: 28px;
+}
+.leftTwo p{
+    font-size:15px;
+}
+.leftTwo span{
+    font-size: 13px;
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.leftContainer{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgContainer2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imgContainer2 img{
+    width: 23px;
+}
+
+
 .right{
     flex: 8;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
-
+.right img{
+    width: 400px;
+    transform: rotate(-10deg);
+}
     
 
 

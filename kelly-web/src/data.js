@@ -8,6 +8,10 @@ import hkImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/ass
 import ckImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/ck.jpg';
 import greenImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/green.jpg';
 import jasmineImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/arojas.jpg';
+import remImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/rem.jpg';
+import soloImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/solo.jpg';
+import jasImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/jas.jpg';
+
 import fav1 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/fav.JPEG';
 import fav2 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/skyline.JPEG';
 import fav3 from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/julyf.JPEG';
@@ -79,13 +83,13 @@ export const guzhengPage = [
 ];
 export const dancePage = [
     { id: 1, title: "Reminicence of the Breeze and Rain", 
-      img: chinafestImg,
+      img: remImg,
     },
     { id: 2, title: "Blooming Jasmine", 
-      img: chinafestImg,
+      img: jasImg,
     },
     { id: 3, title: "Solo", 
-      img: chinafestImg,
+      img: soloImg,
     },
     { id: 4, title: "anotha", 
       img: chinafestImg,
