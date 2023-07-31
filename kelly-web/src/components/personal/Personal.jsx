@@ -41,7 +41,7 @@ export default function Personal(){
 
     return(
         <div className="personal" id="personal">
-            <h1>extracurriculars</h1>
+            <h1>gallery</h1>
             <ul>
                 {list.map(item =>(
                    <li key={item.id} className={selected === item.id ? "active" : ""} onClick={() => setSelected(item.id)}>

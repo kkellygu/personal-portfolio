@@ -1,9 +1,14 @@
 import "./topbar.css"
 import { FaPhone } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import { IoLogoLinkedin } from 'react-icons/io';
+
 
 
 export default function Topbar({menuOpen, setMenuOpen}) {
+
+    const linkedinUrl = 'https://www.linkedin.com/in/kellygu3610/';
+
     return(
         <div className = {"topbar " +(menuOpen &&"active")}>
             <div className="wrapper">
@@ -17,6 +22,12 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                         <MdEmail className="icon" />
                         <span>kkellygu1006@gmail.com</span>
                     </div>
+                    <a href={linkedinUrl} target="_blank" rel="noopener noreferrer">
+                        <div className="itemContainer">
+                            <IoLogoLinkedin className="icon" />
+                            <span>linkedin/kellygu3610</span>
+                        </div>
+                    </a>
                 </div>
                 <div className="right"></div>
                     <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>

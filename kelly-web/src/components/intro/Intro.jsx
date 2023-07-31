@@ -16,7 +16,7 @@ export default function Intro(){
                         hey there! welcome to my personal portfolio. my name is 
                         kelly gu (goo), and i am an undergraduate student 
                         at the university of virginia, majoring in computer 
-                        science with double minors in data science and general
+                        science with a double minor in data science and general
                         business. 
                     </p>
                     <p>
@@ -24,9 +24,10 @@ export default function Intro(){
                         in computer science by working on various personal 
                         projects that align with my diverse interests.
                         additionally, i am thrilled to take on the new role of president of
-                        the chinese student association at my unviersity. i have been 
-                        actively planning a variety of events to promote the ongoing growth
-                        and development of our inclusive organization.
+                        the chinese student association at my unviersity, and i have been 
+                        actively planning and collaborating with others to organzie a variety 
+                        of events to promote the ongoing growth and development of our 
+                        inclusive organization.
                     
                     </p>
                     <p>
@@ -34,7 +35,7 @@ export default function Intro(){
                         with my family and friends, playing the guzheng,
                         dancing, exploring a wide range of shows/films (i am open to
                         recommendations!), immersing myself in nature, taking photos,
-                        baking, and of course, indulging in an occasional nap :D 
+                        baking, and of course, indulging in an occasional nap ;D 
                     </p>
                     <p>
                         i am currently seeking for the next opportunity to apply my skills, 
@@ -46,9 +47,12 @@ export default function Intro(){
                     <p>
                         thank you so much for taking the time to check
                         out my portfolio. please feel free to reach out to me anytime if 
-                        you would like to discuss about absolutely anything and 
-                        everything! 
+                        you would like to chat! 
                     </p>
+                    <p>
+                        yours truly,
+                    </p>
+                    <p>kelly gu</p>
                 </div>
               
                 <a href={resume} download className='resumeButton'>

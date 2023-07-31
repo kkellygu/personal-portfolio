@@ -6,17 +6,18 @@
     position: relative;
 }
 .arrow{
-    height: 50px;
+    height: 80px;
     position: absolute;
     cursor: pointer;
      
     &.left{
-        left: 100px;
+        left: 150px;
+        transform: rotate(90deg);
     }
     &.right{
-        height:50px;
-        right: 100px;
-        transform: rotateY(180deg);
+        height:80px;
+        right: 150px;
+        transform: rotate(-90deg);
     }
     
 }
@@ -25,7 +26,8 @@
     display: flex;
     position: absolute;
     left:0;
-    transition: all 1s ease-out;
+    transition: all 1s ease-in-out;
+
 }  
 .portContainer{
     width: 100vw;
@@ -54,6 +56,8 @@
     display:flex;
     font-size: 28px;
     padding-top:10px;
+    text-shadow: 2px 2px 2px rgba(254, 204, 209,1);
+    color:palevioletred;
 }
 .leftTwo p{
     font-size:15px;

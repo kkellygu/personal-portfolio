@@ -6,9 +6,9 @@
     flex: 0.5;
 
     .imgContainer{
-        height: 900px;       
-        margin-top: 35px; 
-        margin-left: 800px;           
+        height: 750px;       
+        margin-top: 15px; 
+        margin-left: 500px;           
     }
     
 }
@@ -17,24 +17,26 @@
     border-radius: 10px;
     color: black;
     text-align: center;
-    width: 900px;
-    height: 750px;
-    margin-top: 50px;
+    width: 750px;
+    height: 650px;
+    margin-top: 30px;
     position: absolute;
-    top: 970px;
+    top: 770px;
     left: 100px;
     box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
 }
 .aboutMe h2{
-    padding-top: 50px;
-    padding-bottom: 15px;
+    padding-top: 60px;
+    font-size: 33px;
+    padding-bottom: 3px;
     color: rgb(255, 214, 219);
     text-shadow: 2px 2px 2px rgba(216, 112, 147,1);
 }
 .aboutMe p{
     padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 13px;
 }
 
 .resumeButton{
@@ -44,18 +46,18 @@
     color: white;
     text-align: center;
     width: max-content;
-    height: 30px;
-    padding-left:5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    height: 28px;
+    padding-left:2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
     position: absolute;
-    top: 1650px;
-    left: 400px;
+    top: 1385px;
+    left: 385px;
     border: 3px solid rgb(255, 214, 219);
     display: flex;
     align-items: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     transition:smooth;
     text-decoration: none;
 }
@@ -73,18 +75,18 @@
     color: white;
     text-align: center;
     width: max-content;
-    height: 30px;
-    padding-left:5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
+    height: 28px;
+    padding-left:2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
     position: absolute;
-    top: 1650px;
-    left: 565px;
+    top: 1385px;
+    left: 485px;
     border: 3px solid rgb(255, 214, 219);
     display: flex;
     align-items: center;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     transition:smooth;
     text-decoration: none;
 }

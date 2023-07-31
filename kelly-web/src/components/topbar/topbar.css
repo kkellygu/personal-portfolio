@@ -26,6 +26,10 @@
         }
     }
 }
+.link-no-style {
+    color: inherit; /* Use the parent element's color (default color) */
+    text-decoration: none; /* Remove underline */
+  }
 .wrapper{
     padding: 10px 30px;
     display: flex;

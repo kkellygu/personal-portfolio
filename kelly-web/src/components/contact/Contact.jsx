@@ -1,5 +1,5 @@
 import "./contact.css"
-import contactImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/contactme.png'
+import contactImg from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/contactme3.PNG'
 import { useState } from 'react'
 
 export default function Contact(){

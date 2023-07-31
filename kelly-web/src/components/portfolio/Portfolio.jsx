@@ -1,7 +1,7 @@
 import "./portfolio.css"
 import { useState } from "react";
 import portIcon from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/portfolioImg.png';
-import arrowIcon from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/arrow.png'
+import arrowIcon from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/arrow.jpeg'
 import appIcon from '/Users/kellygu/workspace/personal-portfolio/kelly-web/src/assets/images/checklist.png'
 
 export default function Portfolio(){
@@ -28,19 +28,30 @@ export default function Portfolio(){
             title:"Coming Soon...",
             desc:"",
             img: appIcon,
+        },
+        {
+            id:"3",
+            icon:appIcon,
+            title:"Coming Soon...",
+            desc:"",
+            img: appIcon,
         }
+
     ];
 
     const handleClick = (way) => {
-        way === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide-1 : 1) :
-        setCurrentSlide(currentSlide<data.length-1 ? currentSlide+1 : 0);
-    }
+        if (way === "left") {
+          setCurrentSlide((currentSlide - 1 + data.length) % data.length);
+        } else {
+          setCurrentSlide((currentSlide + 1) % data.length);
+        }
+      };
     return(
         <div className="portfolio" id="portfolio">
             <div 
              className="slider" 
-             style = {{transform:`translateX(-${currentSlide*100}vw)`}}
-            >
+             style={{ transform: `translateX(-${currentSlide * (100 / data.length)}%)` }}
+             >
                 {data.map((d) => (
                 <div className="portContainer">
                     <div className="items">
