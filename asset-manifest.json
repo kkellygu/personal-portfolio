@@ -1,16 +1,36 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.71975570.css",
-    "main.js": "/personal-portfolio/static/js/main.ca7c303e.js",
+    "main.css": "/personal-portfolio/static/css/main.7503a308.css",
+    "main.js": "/personal-portfolio/static/js/main.6bae654a.js",
     "static/media/headshot.png": "/personal-portfolio/static/media/headshot.7154d2cf9032ffa9aa17.png",
+    "static/media/pink.JPG": "/personal-portfolio/static/media/pink.ee8dbd90aa52aefd0488.JPG",
     "static/media/chinafest.JPG": "/personal-portfolio/static/media/chinafest.bd6b3799f1149189d3df.JPG",
+    "static/media/city.JPEG": "/personal-portfolio/static/media/city.cb8dcea0f2111b5bd03b.JPEG",
+    "static/media/fmf.jpg": "/personal-portfolio/static/media/fmf.d88be7b1b3f1468bce7b.jpg",
+    "static/media/hkduo.jpg": "/personal-portfolio/static/media/hkduo.528cda27c380aca541de.jpg",
+    "static/media/solo.jpg": "/personal-portfolio/static/media/solo.a676279c392d859084e4.jpg",
+    "static/media/house.JPG": "/personal-portfolio/static/media/house.77cf606b561b3381ade2.JPG",
+    "static/media/ck.jpg": "/personal-portfolio/static/media/ck.12dcf517a6921f5406dc.jpg",
+    "static/media/arojas.jpg": "/personal-portfolio/static/media/arojas.a6971a79dcebd98524a0.jpg",
+    "static/media/dog.JPEG": "/personal-portfolio/static/media/dog.a50fc556c624d9cf3bac.JPEG",
+    "static/media/rem.jpg": "/personal-portfolio/static/media/rem.551c7443fca3933c6cd6.jpg",
+    "static/media/fav.JPEG": "/personal-portfolio/static/media/fav.3491c12c17b1baca8e69.JPEG",
+    "static/media/culturefest.jpg": "/personal-portfolio/static/media/culturefest.05bcfdd26aec7abbf6f3.jpg",
+    "static/media/vball.jpg": "/personal-portfolio/static/media/vball.93c79e820bd0b5cb0d7a.jpg",
+    "static/media/skyline.JPEG": "/personal-portfolio/static/media/skyline.427791e45862c8963d09.JPEG",
+    "static/media/sunset.JPEG": "/personal-portfolio/static/media/sunset.0b02d46779afcacb7627.JPEG",
+    "static/media/julyf.JPEG": "/personal-portfolio/static/media/julyf.2d7045eacbcaf4cf457c.JPEG",
+    "static/media/jas.jpg": "/personal-portfolio/static/media/jas.b78e9e8e61d94ff95acf.jpg",
+    "static/media/contactme3.PNG": "/personal-portfolio/static/media/contactme3.0940702d469ebff03460.PNG",
+    "static/media/green.jpg": "/personal-portfolio/static/media/green.0b2f8782829fc42e4333.jpg",
     "static/media/KGu_CSResume.pdf": "/personal-portfolio/static/media/KGu_CSResume.d52e798211e300d2073c.pdf",
+    "static/media/checklist.png": "/personal-portfolio/static/media/checklist.81fae770a3998528e10e.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.71975570.css.map": "/personal-portfolio/static/css/main.71975570.css.map",
-    "main.ca7c303e.js.map": "/personal-portfolio/static/js/main.ca7c303e.js.map"
+    "main.7503a308.css.map": "/personal-portfolio/static/css/main.7503a308.css.map",
+    "main.6bae654a.js.map": "/personal-portfolio/static/js/main.6bae654a.js.map"
   },
   "entrypoints": [
-    "static/css/main.71975570.css",
-    "static/js/main.ca7c303e.js"
+    "static/css/main.7503a308.css",
+    "static/js/main.6bae654a.js"
   ]
 }
