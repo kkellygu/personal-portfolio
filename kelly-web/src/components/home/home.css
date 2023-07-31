@@ -1,49 +1,54 @@
-.home{
+/* Common styles for larger screens */
+.home {
     background-color: rgb(255, 224, 229);
     height: 100%;
-    margin:0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 100px;
     color: white;
-}
-.wrapper{
+  }
+  
+  .wrapper {
     text-align: center;
-}
-
-.firstName{
+  }
+  
+  .firstName {
     color: white;
     text-shadow: 2px 2px 4px #d8709366;
-}
-.lastName{
+  }
+  
+  .lastName {
     color: palevioletred;
-    text-shadow: 2px 2px 4px rgba(255,255,255,1);
-}
-
-h1{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 1);
+  }
+  
+  h1 {
     font-size: 100px;
-    
-}
-.roles{
+  }
+  
+  .roles {
     text-align: center;
-    margin-top:250px;
-    margin-left:-140px;
-    position:absolute;
-    
-}
-h2{
-    font-size:35px;
+    margin-top: 250px;
+    margin-left: -140px;
+    position: absolute;
+  }
+  
+  h2 {
+    font-size: 35px;
     text-align: center;
     margin-top: -10px;
     text-shadow: 2px 2px 4px white;
-}
-h2 span{
+  }
+  
+  h2 span {
     font-size: inherit;
+    text-align: center;
     color: #d87093;
-}
-
-.ityped-cursor{
+  }
+  
+  .ityped-cursor {
     width: 100%;
     background-color: white;
     font-size: 2rem;
@@ -52,27 +57,62 @@ h2 span{
     -moz-animation: blink 0.3s infinite;
     animation: blink 0.3s infinite;
     animation-direction: alternate;
-    color:white;
-
-
-}
-
-@keyframes blink{
-    100%{
-        opacity: 0;
-    }
-   
-}
-@-webkit-keyframes blink {
+    color: white;
+  }
+  
+  @keyframes blink {
     100% {
-        opacity: 0;
+      opacity: 0;
     }
-}
-
-@-moz-keyframes blink {
+  }
+  
+  @-webkit-keyframes blink {
     100% {
-        opacity: 0;
+      opacity: 0;
     }
-}
-
-
+  }
+  
+  @-moz-keyframes blink {
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 750px) {
+  
+    h1 {
+      font-size: 70px; /* Adjust font size for smaller screens */
+    }
+  
+    h2 {
+      font-size: 20px; /* Adjust font size for smaller screens */
+      text-align: center;
+      margin-left:65px;
+    }
+    .ityped-cursor {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+ @media (max-width: 393px) {
+  
+    h2 {
+      font-size: 15px; /* Adjust font size for smaller screens */
+      text-align: center;
+      margin-left:115px;
+    }
+    
+  }
+  @media (max-width: 300px) {
+    h1{
+        font-size:60px;
+    }
+    h2 {
+      font-size: 13px; /* Adjust font size for smaller screens */
+      text-align: center;
+      margin-left:125px;
+    }
+    
+  }
+  

@@ -1,18 +1,20 @@
-.intro{
-    background-color:rgb(255, 214, 219);
-    overflow-y:hidden;
-}   
-.rightImg{
+/* Common styles for larger screens */
+.intro {
+    background-color: rgb(255, 214, 219);
+    overflow-y: hidden;
+  }
+  
+  .rightImg {
     flex: 0.5;
-
-    .imgContainer{
-        height: 750px;       
-        margin-top: 15px; 
-        margin-left: 500px;           
-    }
-    
-}
-.aboutMe{
+  }
+  
+  .imgContainer {
+    height: 750px;
+    margin-top: 15px;
+    margin-left: 500px;
+  }
+  
+  .aboutMe {
     background-color: white;
     border-radius: 10px;
     color: black;
@@ -23,31 +25,33 @@
     position: absolute;
     top: 770px;
     left: 100px;
-    box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
-}
-.aboutMe h2{
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .aboutMe h2 {
     padding-top: 60px;
     font-size: 33px;
     padding-bottom: 3px;
     color: rgb(255, 214, 219);
-    text-shadow: 2px 2px 2px rgba(216, 112, 147,1);
-}
-.aboutMe p{
+    text-shadow: 2px 2px 2px rgba(216, 112, 147, 1);
+  }
+  
+  .aboutMe p {
     padding-top: 20px;
     padding-left: 70px;
     padding-right: 70px;
     font-size: 13px;
-}
-
-.resumeButton{
+  }
+  
+  .resumeButton {
     display: flex;
     background-color: rgb(255, 214, 219);
-    border-radius:5px;
+    border-radius: 5px;
     color: white;
     text-align: center;
     width: max-content;
     height: 28px;
-    padding-left:2px;
+    padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
     position: absolute;
@@ -58,25 +62,18 @@
     align-items: center;
     font-weight: 700;
     font-size: 16px;
-    transition:smooth;
+    transition: smooth;
     text-decoration: none;
-}
-
-.resumeButton:hover{
-    background-color: white;
-    border: 3px solid palevioletred;
-    color: palevioletred;
-}
-
-.contButton{
+  }
+  .contButton {
     display: flex;
     background-color: rgb(255, 214, 219);
-    border-radius:5px;
+    border-radius: 5px;
     color: white;
     text-align: center;
     width: max-content;
     height: 28px;
-    padding-left:2px;
+    padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
     position: absolute;
@@ -87,12 +84,56 @@
     align-items: center;
     font-weight: 700;
     font-size: 16px;
-    transition:smooth;
+    transition: smooth;
     text-decoration: none;
-}
-.contButton:hover{
+  }
+  
+  .resumeButton:hover,
+  .contButton:hover {
     background-color: white;
     border: 3px solid palevioletred;
     color: palevioletred;
-}
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 1189px) {
+    .imgContainer {
+      height: 50vw;
+      margin-top: 0;
+      margin-left: 10vw;
+      
+    }
+  
+    .aboutMe {
+      width: auto; /* Adjust width for smaller screens */
+      max-width: none; /* Remove maximum width for smaller screens */
+      height: auto; /* Allow the height to adjust based on content */
+      top: 950px; /* Adjust the vertical position for smaller screens */
+      left: 2%; /* Adjust the horizontal position for smaller screens */
 
+    }
+  
+    .aboutMe h2 {
+      padding-top: 4vw;
+      font-size: 3vw;
+      text-shadow: 0.2vw 0.2vw 0.2vw rgba(216, 112, 147, 1);
+    }
+  
+    .aboutMe p {
+      padding: 1vw;
+      font-size: 1vw;
+    }
+  
+    .resumeButton {
+      width: auto; /* Adjust width for smaller screens */
+      font-size: 2vw;
+      top: 1185px; /* Adjust the vertical position for smaller screens */
+      left: 30%; /* Adjust the horizontal position for smaller screens */
+    }
+    .contButton {
+        width: auto; /* Adjust width for smaller screens */
+        font-size: 2vw;
+        top: 1185px; /* Adjust the vertical position for smaller screens */
+        left: 60%; /* Adjust the horizontal position for smaller screens */
+      }
+  }
